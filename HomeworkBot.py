@@ -1,4 +1,3 @@
-"""
 Discord Humanizer + Homework Bot
 Deploy on Railway — single file, no crashes.
 Required env: DISCORD_BOT_TOKEN, OPENAI_API_KEY
@@ -7,7 +6,6 @@ Optional env: DB_PATH (default: premium.db)
 Works in: servers, DMs, group DMs — anywhere Discord allows.
 Users can install this bot to their own account via User Install
 so it follows them everywhere without needing to be in the server.
-"""
 
 import os
 import re
@@ -771,3 +769,4 @@ if __name__ == "__main__":
     if not os.environ.get("OPENAI_API_KEY"):
         raise RuntimeError("OPENAI_API_KEY is not set.")
     bot.run(token)
+(token)
