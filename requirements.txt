@@ -1,4 +1,2 @@
-discord.py
-aiohttp
-googlesearch-python
-openai
+discord.py==2.4.0
+openai==1.35.7
