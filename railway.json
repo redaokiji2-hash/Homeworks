@@ -1,0 +1,12 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python HomeworkBot.py",
+    "restartPolicy": "ON_FAILURE"
+  }
+}
+"
+  }
+}
